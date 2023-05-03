@@ -1,0 +1,149 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style: none;
+        text-decoration: none;
+  }
+  body{
+    background-color: beige ;
+     margin: 0;
+
+  }
+ 
+  #titulo{
+    background-color:rgba(255,0,255,0.3);
+    border: 2px solid hwb(260 42% 57%);
+    border-radius: 8px;
+    padding: 1px;
+  }
+ 
+  h1{
+    font-size: 30px;
+  }
+#imagen1{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 2px solid hwb(260 42% 57%);
+}
+   
+    
+    
+
+
+  #myclick{
+   
+      background-color: blue;
+      height: 70px;
+      padding: 13px 20px;
+      text-align: center;
+      color: white ;
+      font-size:120%;
+      border: 1px solid rgb(17, 17, 17);
+      border-radius: 8px;
+      text-decoration: none;
+      content: "";
+      display: -webkit-inline-box;
+      clear: right;
+      
+    }
+
+    #myclick:hover{
+      color: black;
+      background-color: hsl(120, 44%, 35%);
+      font-size: 130%;
+    transition: 0.2s;
+     }
+
+  #tercerclick{
+    background-color: #230de4;
+    padding: 13px 20px;
+    text-align: center;
+    display: inline-block;
+    color: white ;
+    font-size:100%;
+    border: 3px solid rgb(17, 17, 17);
+    border-radius: 12px;
+  }
+
+  .centro{
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+  .paginas{
+    display: inline-block;
+  }
+  .paginas a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  .paginas a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+div.gallery {
+    border: 2px solid hwb(260 42% 57%);
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  }
+  
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 400px;
+   
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+ 
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+
